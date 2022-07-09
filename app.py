@@ -11,7 +11,7 @@ translator=  Translator(from_lang=lan1.lower(),to_lang=lan2.lower())
 translation = translator.translate(text)
 page_bg_img = '''
  <style>
-    .stApp {
+    .stApp,.e8zbici2 {
     background-image: url("https://images-na.ssl-images-amazon.com/images/I/61+oIVFF7FL.png");
     background-size: cover;
     }
