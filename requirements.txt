@@ -1,3 +1,4 @@
 translate==3.6.1
 translator==0.0.9
 streamlit==1.10.0
+googletrans==4.0.0rc1
