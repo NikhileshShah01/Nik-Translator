@@ -5,7 +5,7 @@ st.set_page_config(page_title='Nik Translator', page_icon=":earth_asia:")
 st.title("Text Translator ❤")
 st.subheader("Type your text here ")
 text=st.text_input("Write here")
-lan1=st.selectbox("Select Language from",["English",,"Spanish","French","German","Japanese","Latin"])
+lan1=st.selectbox("Select Language from",["English","Spanish","French","German","Japanese","Latin"])
 lan2=st.selectbox("Translate to ",["Spanish","German","French","Latin","Japanese","English"])
 
 translator=  Translator(from_lang=lan1.lower(),to_lang=lan2.lower())
