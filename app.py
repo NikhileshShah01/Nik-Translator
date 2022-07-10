@@ -5,7 +5,7 @@ st.title("Text Translator ❤")
 st.subheader("Type your text here ")
 text=st.text_input("Write here")
 lan1=st.selectbox("Select Language from",["English","Hindi","Spanish","French","German","Japanese"])
-lan2=st.selectbox("Translate to ",["English","Hindi","Spanish","French","German","Japanese"])
+lan2=st.selectbox("Translate to ",["Spanish","English","German","French","Hindi","Japanese"])
 
 translator=  Translator(from_lang=lan1.lower(),to_lang=lan2.lower())
 translation = translator.translate(text)
